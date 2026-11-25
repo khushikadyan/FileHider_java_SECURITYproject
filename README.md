@@ -63,36 +63,7 @@ The application follows a modular architecture that separates file operations, s
      Audit Logger
 ```
 
-##  Project Structure
 
-```text
-Secure-File-Management/
-│
-├── src/
-│   ├── main/
-│   │   ├── java/
-│   │   │   └── com/securefile/
-│   │   │       ├── controller/
-│   │   │       ├── service/
-│   │   │       ├── security/
-│   │   │       ├── encryption/
-│   │   │       ├── model/
-│   │   │       ├── repository/
-│   │   │       ├── exception/
-│   │   │       └── util/
-│   │   │
-│   │   └── resources/
-│   │
-│   └── test/
-│       └── java/
-│
-├── docs/
-│   └── architecture.md
-│
-├── .gitignore
-├── pom.xml
-└── README.md
-```
 
 ##  Security Implementation
 
